@@ -21,10 +21,6 @@ export default function Home() {
             <p className="text-base text-slate-300 leading-relaxed">Growing deeper expertise in frontend architecture, testing strategies, and design systems while collaborating on real-world products.</p>
           </div>
         </div>
-        
-        <div className="text-center">
-          <a href="/projects" className="btn-primary">View Projects →</a>
-        </div>
       </div>
     </div>
   )
