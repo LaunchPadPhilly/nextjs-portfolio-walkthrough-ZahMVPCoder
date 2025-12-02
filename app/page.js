@@ -1,20 +1,47 @@
+import Link from 'next/link'
+import Image from 'next/image'
+
 export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center p-8">
       <div className="max-w-4xl text-center">
+        <div className="mb-8 flex justify-center">
+          <Image 
+            src="https://ui-avatars.com/api/?name=Zahir&size=300&background=16a34a&color=fff&bold=true"
+            alt="Zahir's profile photo"
+            width={200}
+            height={200}
+            className="rounded-full shadow-xl"
+          />
+        </div>
+        
         <h1 className="text-6xl font-bold mb-6 text-gray-900">
-          Welcome to My Portfolio
+          Hi, I'm Zahir!
         </h1>
         
         <p className="text-xl text-gray-600 mb-8">
-          This is your homepage starter template. Customize this page to introduce yourself!
+          I'm a passionate developer learning to build modern web applications with Next.js and React. 
+          I love creating clean, user-friendly websites and I'm excited to share my journey and projects with you. 
+          Welcome to my portfolio!
         </p>
 
-        <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-6 text-left">
-          <h2 className="text-2xl font-bold mb-4 text-blue-900">
+        <div className="flex gap-4 justify-center mb-8">
+          <Link href="/about" className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 shadow-lg hover:shadow-xl">
+            About Me
+          </Link>
+          <Link href="/projects" className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 shadow-lg hover:shadow-xl">
+            My Projects
+          </Link>
+          <Link href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 shadow-lg hover:shadow-xl">
+            Contact
+          </Link>
+        </div>
+
+        <div className="bg-green-50 border-2 border-green-200 rounded-lg p-6 text-left">
+          <h2 className="text-2xl font-bold mb-4 text-green-900">
             📝 TODO: Customize Your Homepage
           </h2>
-          <ul className="space-y-2 text-blue-800">
+          <ul className="space-y-2 text-green-800">
             <li>✏️ Change the heading to include your name</li>
             <li>✏️ Write a brief introduction about yourself</li>
             <li>✏️ Add navigation links to your other pages</li>
