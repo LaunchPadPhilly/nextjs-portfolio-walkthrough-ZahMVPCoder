@@ -1,32 +1,29 @@
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center p-8">
-      <div className="max-w-4xl text-center">
-        <h1 className="text-6xl font-bold mb-6 text-gray-900">
-          Welcome to My Portfolio
-        </h1>
-        
-        <p className="text-xl text-gray-600 mb-8">
-          This is your homepage starter template. Customize this page to introduce yourself!
-        </p>
-
-        <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-6 text-left">
-          <h2 className="text-2xl font-bold mb-4 text-blue-900">
-            📝 TODO: Customize Your Homepage
-          </h2>
-          <ul className="space-y-2 text-blue-800">
-            <li>✏️ Change the heading to include your name</li>
-            <li>✏️ Write a brief introduction about yourself</li>
-            <li>✏️ Add navigation links to your other pages</li>
-            <li>✏️ Choose your own color scheme</li>
-            <li>✏️ Make it responsive for mobile devices</li>
-          </ul>
-        </div>
-
-        <div className="mt-8 p-4 bg-yellow-50 border-2 border-yellow-200 rounded-lg">
-          <p className="text-yellow-900 font-semibold">
-            💡 Tip: Check the README.md for detailed instructions and examples!
+    <div className="px-6 py-12">
+      <div className="max-w-5xl mx-auto">
+        <div className="text-center mb-16">
+          <h1 className="section-heading mb-6">Hi, I'm Jaylen Marshall</h1>
+          <p className="text-lg md:text-xl leading-relaxed text-slate-300 max-w-3xl mx-auto">
+            Front-End Engineer focused on crafting responsive, accessible, and performant web experiences using React, Next.js, and modern tooling.
           </p>
+        </div>
+        
+        <div className="grid gap-6 md:grid-cols-2 mb-16">
+          <div className="card-surface p-8">
+            <div className="text-4xl mb-4">🎯</div>
+            <h2 className="text-2xl font-bold mb-4 text-white">Core Focus</h2>
+            <p className="text-base text-slate-300 leading-relaxed">Building clean UI components, refining developer workflows, and shipping user-centered features with scalability in mind.</p>
+          </div>
+          <div className="card-surface p-8">
+            <div className="text-4xl mb-4">🚀</div>
+            <h2 className="text-2xl font-bold mb-4 text-white">Current Goals</h2>
+            <p className="text-base text-slate-300 leading-relaxed">Growing deeper expertise in frontend architecture, testing strategies, and design systems while collaborating on real-world products.</p>
+          </div>
+        </div>
+        
+        <div className="text-center">
+          <a href="/projects" className="btn-primary">View Projects →</a>
         </div>
       </div>
     </div>
