@@ -20,8 +20,8 @@ export default function Home() {
         </h1>
         
         <p className="text-xl text-gray-600 mb-8">
-          I'm a passionate developer learning to build modern web applications with Next.js and React. 
-          I love creating clean, user-friendly websites and I'm excited to share my journey and projects with you. 
+          I'm a passionate youtuber that loves to make people laugh and web designer. I Code using Next.js and React. 
+          I love creating unique websites and making funny youtube videos in my spare time! I'm excited to share my journey and projects with you. 
           Welcome to my portfolio!
         </p>
 

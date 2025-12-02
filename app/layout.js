@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'My Portfolio',
-  description: 'A Next.js portfolio website showcasing my projects and skills',
+  title: 'Welcome to my Portfolio',
+  description: 'This website showcases all my projects, links, skills, and everything about me!',
 }
 
 export default function RootLayout({ children }) {
