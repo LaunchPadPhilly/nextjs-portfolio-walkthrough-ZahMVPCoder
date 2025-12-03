@@ -23,14 +23,7 @@ export default function About() {
           <div>
             <h2 className="text-3xl font-bold mb-4 text-gray-900">Hello! I'm Zahir</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              I'm a passionate web developer currently learning to build modern, responsive applications 
-              with Next.js and React. I love the challenge of turning ideas into functional, beautiful 
-              websites that people can actually use.
-            </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              When I'm not coding, I'm exploring new technologies, learning best practices, and working 
-              on projects that push my skills to the next level. I believe in writing clean, maintainable 
-              code and creating user experiences that matter.
+              I'm a passionate web designer that loves to create beautiful and functional websites. On my spare time i make funny Youtube videos about me playing horror games. i edit and make the design for the thumbnail myself.
             </p>
           </div>
         </div>
@@ -93,12 +86,12 @@ export default function About() {
             </div>
             
             <div className="flex items-start gap-4">
-              <span className="text-3xl">🌱</span>
+              <span className="text-3xl">📸</span>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Never Stop Learning</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">YouTube Content Creation</h3>
                 <p className="text-gray-700">
-                  Stay curious and keep learning new technologies, frameworks, and best practices in 
-                  the ever-evolving world of web development.
+                  Continue creating engaging and entertaining content on my YouTube channel, focusing on 
+                  gaming videos, especially horror games, to grow my audience and improve my video production skills.
                 </p>
               </div>
             </div>

@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white text-center p-8 mt-auto">
       <p className="text-gray-400">
-        © 2025 Your Name. Built with Next.js
+        © 2025 Zahir Alston. Built with Next.js
       </p>
     </footer>
   )
