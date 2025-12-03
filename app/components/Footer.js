@@ -38,7 +38,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4 text-green-400">Connect</h4>
             <p className="text-gray-400 mb-4">
-              Let's work together on your next project!
+              Let&apos;s work together on your next project!
             </p>
             <Link 
               href="/contact" 

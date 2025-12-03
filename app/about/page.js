@@ -95,9 +95,9 @@ export default function About() {
           
           {/* Bio */}
           <div className="flex-1">
-            <h2 className="text-4xl font-bold mb-6 text-gray-900">Hello! I'm Zahir</h2>
+            <h2 className="text-4xl font-bold mb-6 text-gray-900">Hello! I&apos;m Zahir</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              I'm a passionate web designer that loves to create beautiful and functional websites. On my spare time I make funny YouTube videos about me playing horror games. I edit and make the design for the thumbnail myself.
+              I&apos;m a passionate web designer that loves to create beautiful and functional websites. On my spare time I make funny YouTube videos about me playing horror games. I edit and make the design for the thumbnail myself.
             </p>
           </div>
         </div>

@@ -88,7 +88,7 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto relative z-10 pt-8">
         <h1 className="text-5xl font-bold mb-4 text-gray-900">Get In Touch</h1>
         <p className="text-xl text-gray-600 mb-12">
-          I'd love to hear from you! Feel free to reach out through any of these channels.
+          I&apos;d love to hear from you! Feel free to reach out through any of these channels.
         </p>
         
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
@@ -170,10 +170,10 @@ export default function Contact() {
         </div>
 
         <div className="bg-green-50 border-2 border-green-200 rounded-lg p-8 text-center">
-          <h3 className="font-bold text-green-900 mb-3 text-2xl">💬 Let's Build Something Amazing!</h3>
+          <h3 className="font-bold text-green-900 mb-3 text-2xl">💬 Let&apos;s Build Something Amazing!</h3>
           <p className="text-green-800 text-lg mb-4">
             Whether you have a project idea, want to collaborate, or just want to say hi, 
-            I'm always open to new opportunities and connections.
+            I&apos;m always open to new opportunities and connections.
           </p>
           <p className="text-green-700 font-semibold">
             I typically respond within 24-48 hours

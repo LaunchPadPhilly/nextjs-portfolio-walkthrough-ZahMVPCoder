@@ -79,7 +79,7 @@ export default function Projects() {
             My Projects
           </h1>
           <p className="text-xl text-gray-700 mb-4 font-medium">
-            Check out some of the projects I've built to solve real-world problems and enhance user experiences.
+            Check out some of the projects I&apos;ve built to solve real-world problems and enhance user experiences.
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-500 mx-auto rounded-full"></div>
         </div>
@@ -181,7 +181,7 @@ export default function Projects() {
         <div className="bg-gradient-to-r from-green-100 to-emerald-100 border-2 border-green-300 rounded-2xl p-8 text-center shadow-lg backdrop-blur-sm">
           <h3 className="font-bold text-green-900 mb-3 text-2xl">🚀 More Projects Coming Soon!</h3>
           <p className="text-green-800 text-lg">
-            I'm constantly learning and building. Check back later for more exciting projects!
+            I&apos;m constantly learning and building. Check back later for more exciting projects!
           </p>
         </div>
       </div>

@@ -197,7 +197,7 @@ export default function Home() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 text-gray-900 px-4">
-          Hi, I'm Zahir!
+          Hi, I&apos;m Zahir!
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-700 mb-14 font-medium px-4"> 
