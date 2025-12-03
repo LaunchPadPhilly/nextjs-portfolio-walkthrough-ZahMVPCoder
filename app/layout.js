@@ -1,21 +1,22 @@
 import './globals.css'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 export const metadata = {
-  title: 'My Portfolio',
-  description: 'A Next.js portfolio website showcasing my projects and skills',
+  title: 'Welcome to my Portfolio',
+  description: 'This website showcases all my projects, links, skills, and everything about me!',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-gray-50">
-        {/* TODO: Import and add your Navbar component here */}
+        <Navbar />
         
         <main className="flex-grow">
           {children}
+          <Footer />  
         </main>
-        
-        {/* TODO: Import and add your Footer component here */}
       </body>
     </html>
   )
