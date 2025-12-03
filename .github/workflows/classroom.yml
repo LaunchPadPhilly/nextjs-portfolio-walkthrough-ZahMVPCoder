@@ -40,4 +40,4 @@ jobs:
           BUILD-TEST_RESULTS: "${{steps.build-test.outputs.result}}"
           LINT-TEST_RESULTS: "${{steps.lint-test.outputs.result}}"
         with:
-          runners: install-dependencies,file-structure-test,component-tests,code-quality-tests,build-test,lint-test
+          runners: "install-dependencies,file-structure-test,component-tests,code-quality-tests,build-test,lint-test"
